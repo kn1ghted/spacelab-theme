@@ -1,0 +1,270 @@
+{
+    "key": "group_600081d310c63",
+    "title": "Footer Elements",
+    "fields": [
+        {
+            "key": "field_6001fa517f12c",
+            "label": "Block A",
+            "name": "block_a",
+            "type": "group",
+            "instructions": "First column of footer elements",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6001fa6e7f12d",
+                    "label": "Text",
+                    "name": "fba_text",
+                    "type": "textarea",
+                    "instructions": "Footer first column - text",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6001fa9e7f12e",
+                    "label": "Social",
+                    "name": "fba_social",
+                    "type": "repeater",
+                    "instructions": "Social Icons with external URL",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_6001fb0b7f12f",
+                            "label": "Icon",
+                            "name": "social_icon",
+                            "type": "select",
+                            "instructions": "Select icon to display",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "receiver": "receiver",
+                                "mail": "mail",
+                                "instagram": "instagram",
+                                "facebook": "facebook"
+                            },
+                            "default_value": false,
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_6001fb477f130",
+                            "label": "External URL",
+                            "name": "social_external-url",
+                            "type": "text",
+                            "instructions": "External link to social icon",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_6001fb817f131",
+            "label": "Block B",
+            "name": "block_b",
+            "type": "group",
+            "instructions": "Second column for footer elements",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6001fbb87f132",
+                    "label": "Links",
+                    "name": "fbb_links",
+                    "type": "repeater",
+                    "instructions": "Repeater for footer column links",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_6001fbde7f133",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "row",
+                    "button_label": "Add navigation item",
+                    "sub_fields": [
+                        {
+                            "key": "field_6001fbde7f133",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "Item text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_6001fbfe7f134",
+                            "label": "Link",
+                            "name": "link",
+                            "type": "text",
+                            "instructions": "Item link",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_6001fc557f135",
+            "label": "Block C",
+            "name": "block_c",
+            "type": "group",
+            "instructions": "Third footer column",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_600081efebdec",
+                    "label": "Logo",
+                    "name": "fbc_logo",
+                    "type": "image",
+                    "instructions": "Footer logo",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6000820aebded",
+            "label": "Copyright",
+            "name": "footer_copyright",
+            "type": "text",
+            "instructions": "Footer copyright",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1611007033
+}
